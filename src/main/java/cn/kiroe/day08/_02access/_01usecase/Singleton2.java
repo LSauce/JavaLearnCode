@@ -17,23 +17,19 @@ package cn.kiroe.day08._02access._01usecase;
 如何实现单例：
 
  */
-public class Singleton {
-    // 懒加载
-    private static Singleton instance;
+public class Singleton2 {
+    // 立即加载  - 线程安全的
+    private static Singleton2 instance = new Singleton2();
 
-    private Singleton() {// new出来的 对象地址与 构造方法无关， 构造方法只用于 初始化
+    private Singleton2() {// new出来的 对象地址与 构造方法无关， 构造方法只用于 初始化
     }
 
-    public static Singleton getInstance() {
-        if (instance == null) {
-            instance = new Singleton();
-        }
-
+    public static Singleton2 getInstance() {
         return instance;
     }
 }
 
-class SingletonDemo {
+class SingletonDemo2 {
 
     public static void main(String[] args) {
         //Singleton singleton = new Singleton();

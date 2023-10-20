@@ -1,4 +1,4 @@
-package cn.kiroe.day07.oop2._04block._02constructor._03static._01basic;
+package cn.kiroe.day07.oop2._04block._03static._01basic;
 
 /**
  * @author kiro
@@ -19,6 +19,6 @@ public class Demo {
         // 静态代码块
     }
     public static void main(String[] args) {
-        
+
     }
 }

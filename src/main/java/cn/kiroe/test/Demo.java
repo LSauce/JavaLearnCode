@@ -33,6 +33,10 @@ class Father extends  GrandFather{
 
 class Son1 extends Father{
     String name = "son1";
+
+    public Object getFather() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
 
 

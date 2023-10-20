@@ -1,4 +1,4 @@
-package cn.kiroe.day07.oop2._01game._02static._03.method;
+package cn.kiroe.day07.oop2._02static._03.method;
 
 import java.util.Arrays;
 

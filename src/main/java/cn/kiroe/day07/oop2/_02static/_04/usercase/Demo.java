@@ -1,4 +1,4 @@
-package cn.kiroe.day07.oop2._01game._02static._04.usercase;
+package cn.kiroe.day07.oop2._02static._04.usercase;
 
 /**
  * @author kiro

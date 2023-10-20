@@ -1,6 +1,5 @@
-package cn.kiroe.day07.oop2._01game._02static._01.introduce;
+package cn.kiroe.day07.oop2._02static._01.introduce;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 
 /**

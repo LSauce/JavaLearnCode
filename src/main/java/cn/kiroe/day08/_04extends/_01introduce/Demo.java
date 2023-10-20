@@ -1,4 +1,4 @@
-package cn.kiroe.day08._04extends;
+package cn.kiroe.day08._04extends._01introduce;
 
 /**
  * @author kiro
@@ -12,11 +12,11 @@ package cn.kiroe.day08._04extends;
 2. 教师类：有姓名，教师号两个属性，同时有吃饭，教学两种行为
 3. 学生类：有姓名，学号两个属性，同时有吃饭，学习两种行为
  */
-public class _01introduce {
 
 
-}
-
+//          1. 人类：有姓名属性，以及吃饭这个行为
+//        2. 教师类：有姓名，教师号两个属性，同时有吃饭，教学两种行为
+//        3. 学生类：有姓名，学号两个属性，同时有吃饭，学习两种行为
 class Person {
     String name;
 
@@ -24,10 +24,6 @@ class Person {
         System.out.println("吃饭");
     }
 }
-
-//          1. 人类：有姓名属性，以及吃饭这个行为
-//        2. 教师类：有姓名，教师号两个属性，同时有吃饭，教学两种行为
-//        3. 学生类：有姓名，学号两个属性，同时有吃饭，学习两种行为
 class Teacher {
     String name;
     int id;

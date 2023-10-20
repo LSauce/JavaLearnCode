@@ -1,4 +1,4 @@
-package cn.kiroe.day07.oop2._01game._03call;
+package cn.kiroe.day07.oop2._02static._03call;
 
 /**
  * @author kiro
