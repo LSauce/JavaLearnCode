@@ -51,7 +51,7 @@ public class LinkWork1 {
      * @return : 经过翻转链表的头结点
      */
     /*
-    设置假头，使用双指针
+    使用双指针
      */
     private static Node reLinked(Node head) {
         if(head == null){
