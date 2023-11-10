@@ -21,10 +21,10 @@ public class Demo4 {
         System.out.println(integers.toArray() instanceof Integer[]);
 
         ArrayList<Student> students = new ArrayList<>();
-        students.add(new Student("zs",1));
-        students.add(new Student("zs",1));
-        students.add(new Student("zs",1));
-        students.add(new Student("zs",1));
+        students.add(new Student("zs", 1));
+        students.add(new Student("zs", 1));
+        students.add(new Student("zs", 1));
+        students.add(new Student("zs", 1));
 
         // 异常
 //        Student[] array = students.toArray(new Integer[10]);
@@ -33,16 +33,15 @@ public class Demo4 {
         System.out.println("array2.length = " + array2.length);
 
         System.out.println("array = " + Arrays.toString(array));
-       // System.out.println("toArray的情况,当传入的数组长度 打印");
+        // System.out.println("toArray的情况,当传入的数组长度 打印");
 
         Object[] array1 = students.toArray();
         System.out.println("array1.getClass() = " + array1.getClass());
 
-            Student[] ss  =(Student[]) array1;
-            System.out.println("ss = " + ss);
-            System.out.println(true);
-
-
+//        Student[] ss = (Student[]) array1;
+//        System.out.println("ss = " + ss);
+//        System.out.println(true);
+        
 
     }
 }
