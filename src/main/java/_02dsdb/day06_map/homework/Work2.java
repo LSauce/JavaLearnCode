@@ -48,7 +48,7 @@ public class Work2 {
         students.add( new Student(10, "s10", 3));
         students.add( new Student(11, "s11", 3));
         students.add( new Student(12, "s12", 3));
-        for (int i = 13; i < 10; i++) {
+        for (int i = 13; i < 20; i++) {
             students.add(new Student(i,"s"+i,i%3+1));
         }
     }
