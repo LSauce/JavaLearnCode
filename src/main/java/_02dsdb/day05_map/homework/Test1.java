@@ -11,6 +11,9 @@ import java.util.stream.Collectors;
  * @data 19:55 14/11/2023
  **/
 public class Test1 {
+    // 当在写东西是 心会静下来
+    // 作业需要讲吗？
+
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5,6};
         int[] newNums =  new int[nums.length+1];
