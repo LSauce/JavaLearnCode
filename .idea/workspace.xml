@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03679336-71ec-4fd1-949f-5938fd859ff8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/pages/HomePage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/pages/PageTest2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/pages/test/form2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/lang/System.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/notesbook/3.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="InstancesTracker">
+    <option name="classes">
+      <map>
+        <entry key="java.lang.String" value="CREATION" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2Wf4uqsvlSAnG6xC85ruk17e1yG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/kiro/Code/TrainingCourse/JavaLearnCode/JavaLearnCode",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "beansoft.intellij.ide.scratch.LRUPopupBuilderEx$3/New Note": [
+      "md.id",
+      "sql.id"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="_02dsdb.day06_map.homework" />
+      <recent name="cn.kiroe.day19_thread1.homework.work1" />
+      <recent name="cn.kiroe.day15_string.homework.ex7comparable" />
+      <recent name="cn.kiroe.days12.oop._01intern._05annoymous._02usercase" />
+      <recent name="cn.kiroe.day10.oop._03interface._07example.dao.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/_02dsdb/day07_stream/homework/work2" />
+      <recent name="$PROJECT_DIR$/src/main/java/selflearn/thread" />
+      <recent name="$PROJECT_DIR$/src/main/java/cn/kiroe/day22_reflect/_06customclassload" />
+      <recent name="$PROJECT_DIR$/IOTest" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IOTest" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="_02dsdb.day05_map._02api" />
+      <recent name="cn.kiroe.day10.oop._03interface._07example.controller" />
+      <recent name="cn.kiroe.day03.method._06unittest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_02dsdb.day01_generic._02normal" />
+      <recent name="cn.kiroe.day22_network.tcp.v2" />
+      <recent name="cn.kiroe.day16_exception._05finally" />
+      <recent name="cn.kiroe.day16_exception._02handle._02trycatch" />
+      <recent name="cn.kiroe.dya03.method" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application._02dsdb.day06_map.homework.Work2">
+    <configuration name="JavaVMStackSOF" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selflearn.jvm.memory.JavaVMStackSOF" />
+      <module name="JavaLearnCode" />
+      <option name="VM_PARAMETERS" value="-Xss384k" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selflearn.jvm.memory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuntimeConstantPoolOOM" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selflearn.jvm.memory.RuntimeConstantPoolOOM" />
+      <module name="JavaLearnCode" />
+      <option name="PROGRAM_PARAMETERS" value="-XX:MaxMetaspaceSize=1M" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selflearn.jvm.memory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02dsdb.day07_stream.homework.Work1" />
+      <module name="JavaLearnCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02dsdb.day07_stream.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02dsdb.day07_stream.homework.Work2" />
+      <module name="JavaLearnCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02dsdb.day07_stream.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_02dsdb.day06_map.homework.Work2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02dsdb.day06_map.homework.Work2" />
+      <module name="JavaLearnCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02dsdb.day06_map.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_02dsdb.day07_stream.homework.work2.Work2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02dsdb.day07_stream.homework.work2.Work2" />
+      <module name="JavaLearnCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02dsdb.day07_stream.homework.work2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cn.kiroe.day01.Main" />
+      <module name="JavaLearnCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo3EndStream2Collect.testCollect6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaLearnCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02dsdb.day07_stream._01introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_02dsdb.day07_stream._01introduction" />
+      <option name="MAIN_CLASS_NAME" value="_02dsdb.day07_stream._01introduction.Demo3EndStream2Collect" />
+      <option name="METHOD_NAME" value="testCollect6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RuntimeConstantPoolOOM" />
+      <item itemvalue="Application.JavaVMStackSOF" />
+      <item itemvalue="Application.java" />
+      <item itemvalue="Application._02dsdb.day06_map.homework.Work2" />
+      <item itemvalue="Application._02dsdb.day07_stream.homework.work2.Work2" />
+      <item itemvalue="Application.Work1" />
+      <item itemvalue="Application.Work2" />
+      <item itemvalue="JUnit.Demo3EndStream2Collect.testCollect6" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application._02dsdb.day06_map.homework.Work2" />
+        <item itemvalue="Application._02dsdb.day07_stream.homework.work2.Work2" />
+        <item itemvalue="Application.Work2" />
+        <item itemvalue="Application.Work1" />
+        <item itemvalue="JUnit.Demo3EndStream2Collect.testCollect6" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+    <option name="myConnectionId" value="" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03679336-71ec-4fd1-949f-5938fd859ff8" name="Changes" comment="" />
+      <created>1697110526097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697110526097</updated>
+      <workItem from="1697110527099" duration="10880000" />
+      <workItem from="1697154183062" duration="6641000" />
+      <workItem from="1697161973479" duration="178000" />
+      <workItem from="1697162159045" duration="8722000" />
+      <workItem from="1697179574627" duration="133000" />
+      <workItem from="1697179745679" duration="363000" />
+      <workItem from="1697180115223" duration="28000" />
+      <workItem from="1697180183095" duration="63000" />
+      <workItem from="1697180360109" duration="13000" />
+      <workItem from="1697183173629" duration="673000" />
+      <workItem from="1697247736775" duration="38000" />
+      <workItem from="1697254396266" duration="19000" />
+      <workItem from="1697263722719" duration="14099000" />
+      <workItem from="1697335049750" duration="9000" />
+      <workItem from="1697352723072" duration="3194000" />
+      <workItem from="1697357829213" duration="4549000" />
+      <workItem from="1697418174815" duration="162000" />
+      <workItem from="1697418413575" duration="27120000" />
+      <workItem from="1697459085571" duration="28000" />
+      <workItem from="1697459127185" duration="3748000" />
+      <workItem from="1697463056129" duration="277000" />
+      <workItem from="1697464410788" duration="33363000" />
+      <workItem from="1697592686382" duration="18302000" />
+      <workItem from="1697631051144" duration="32325000" />
+      <workItem from="1697726749000" duration="94000" />
+      <workItem from="1697760944037" duration="8000" />
+      <workItem from="1697765523039" duration="22366000" />
+      <workItem from="1697805375091" duration="916000" />
+      <workItem from="1697876489981" duration="4775000" />
+      <workItem from="1698023664671" duration="3216000" />
+      <workItem from="1698027308782" duration="22227000" />
+      <workItem from="1698111082375" duration="1883000" />
+      <workItem from="1698113390598" duration="2997000" />
+      <workItem from="1698119504607" duration="14939000" />
+      <workItem from="1698152496885" duration="7239000" />
+      <workItem from="1698197498548" duration="9339000" />
+      <workItem from="1698227822556" duration="757000" />
+      <workItem from="1698237310231" duration="680000" />
+      <workItem from="1698283968597" duration="27864000" />
+      <workItem from="1698370343330" duration="24352000" />
+      <workItem from="1698458714606" duration="6276000" />
+      <workItem from="1698465778606" duration="3883000" />
+      <workItem from="1698630341465" duration="5786000" />
+      <workItem from="1698636158487" duration="94000" />
+      <workItem from="1698636260409" duration="2587000" />
+      <workItem from="1698645921038" duration="2009000" />
+      <workItem from="1698648720516" duration="9707000" />
+      <workItem from="1698659853930" duration="19000" />
+      <workItem from="1698664335673" duration="8261000" />
+      <workItem from="1698715908214" duration="80810000" />
+      <workItem from="1698975104187" duration="18715000" />
+      <workItem from="1699004269941" duration="7607000" />
+      <workItem from="1699061314060" duration="18390000" />
+      <workItem from="1699101965702" duration="292000" />
+      <workItem from="1699102265648" duration="350000" />
+      <workItem from="1699102638156" duration="1797000" />
+      <workItem from="1699104450306" duration="40000" />
+      <workItem from="1699104497679" duration="1479000" />
+      <workItem from="1699169215306" duration="14692000" />
+      <workItem from="1699235016781" duration="38241000" />
+      <workItem from="1699322116918" duration="12504000" />
+      <workItem from="1699343032184" duration="12713000" />
+      <workItem from="1699363192948" duration="21211000" />
+      <workItem from="1699439282347" duration="11259000" />
+      <workItem from="1699512262905" duration="3378000" />
+      <workItem from="1699515683839" duration="9738000" />
+      <workItem from="1699531595612" duration="4038000" />
+      <workItem from="1699538807630" duration="1841000" />
+      <workItem from="1699607154830" duration="688000" />
+      <workItem from="1699616552334" duration="196000" />
+      <workItem from="1699620053361" duration="10960000" />
+      <workItem from="1699667172472" duration="12638000" />
+      <workItem from="1699840540177" duration="57019000" />
+      <workItem from="1699926016910" duration="23388000" />
+      <workItem from="1699964628588" duration="4095000" />
+      <workItem from="1700011589912" duration="16285000" />
+      <workItem from="1700036961968" duration="392000" />
+      <workItem from="1700037498199" duration="149000" />
+      <workItem from="1700037788808" duration="21000" />
+      <workItem from="1700037881522" duration="3279000" />
+      <workItem from="1700103469670" duration="10360000" />
+      <workItem from="1700121021054" duration="9616000" />
+      <workItem from="1700134555741" duration="157000" />
+      <workItem from="1700134717738" duration="813000" />
+      <workItem from="1700135548052" duration="109000" />
+      <workItem from="1700135666834" duration="662000" />
+      <workItem from="1700136704486" duration="1859000" />
+      <workItem from="1700138575850" duration="3327000" />
+      <workItem from="1700147545094" duration="1144000" />
+      <workItem from="1700148702038" duration="23000" />
+      <workItem from="1700148732433" duration="1023000" />
+      <workItem from="1700184627159" duration="2924000" />
+      <workItem from="1700190882866" duration="5348000" />
+      <workItem from="1700210482901" duration="201000" />
+      <workItem from="1700215034972" duration="1231000" />
+      <workItem from="1700269104204" duration="17000" />
+      <workItem from="1700279288307" duration="1149000" />
+      <workItem from="1700297883895" duration="1520000" />
+      <workItem from="1700469484529" duration="1615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day02/VariableMain.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day03/method/MethodMain.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day04/array/Main.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day04/_04use/Demo.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day04/_04use/Demo.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day04/_04use/Demo2.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day06/oop1/_02define/Demo.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day06/oop1/_05classload/Demo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day06/oop1/_07this/_01/introduce/Demo.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day06/oop1/_07this/_01/introduce/Demo.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day07/oop2/_02static/_03/method/Demo2.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day07/oop2/_02static/_05order/Demo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day07/oop2/_04block/_02constructor/Demo5.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day07/oop2/_04block/_03static/_01basic/Demo2.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day07/oop2/_04block/_04ex/Demo.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day07/oop2/_04block/_04ex/Demo.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day07/homework/question5/Question5.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day07/homework/question9/Question9.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day07/oop2/_04block/_04ex/ExerciseBlock.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day09/_01extends/_04override/_04ex/Demo.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day09/_02polymorphic/_01introduce/Demo.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day10/oop/_03interface/_07example/dao/impl/ProductDaoImpl.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day12/oop/_01intern/_03static/_01introduction/Demo.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day13_object/_03tostring/Demo.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day13_object/homework/objecttest/test1/Test.java</url>
+          <line>82</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day15_string/_02feature/Demo2.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day15_string/_02feature/Demo3.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day15_string/_02feature/Demo4.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day15_string/_02feature/Demo5.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day16_exception/_02handle/_02trycatch/Demo4.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day16_exception/_02handle/_02trycatch/Demo3.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day16_exception/_02handle/_02trycatch/Demo3.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day15_string/homework/qustion/Demo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day16_exception/_02handle/_05finally/Demo4.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day16_exception/_02handle/_05finally/Demo5.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day17_io/in/Demo2.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day17_io/in/Demo2.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day17_io/in/Demo3.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day18_io2/_02charstream/_01introduction/Demo.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day23_annotation/_04handle/Demo2.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day23_annotation/_04handle/Demo2.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day23_annotation/_04handle/Demo2.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_02dsdb/day04_list_queue/_01list/Demo4.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_02dsdb/day04_list_queue/_01list/Demo5.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day05/recrussion/Demo.java</url>
+          <line>8</line>
+          <properties class="cn.kiroe.day05.recrussion.Demo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day06/oop1/_08constructor/Demo.java</url>
+          <line>32</line>
+          <properties class="cn.kiroe.day06.oop1._08constructor.Student">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day07/homework/question9/Question9.java</url>
+          <line>46</line>
+          <properties class="cn.kiroe.day07.homework.question9.Person" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kiroe/day12/oop/_01intern/_04local/_01introduction/Demo.java</url>
+          <line>50</line>
+          <properties class="cn.kiroe.day12.oop._01intern._04local._01introduction.Outer" method="outerStaticMethod">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/examination/updnetwork/Work1.java</url>
+          <line>27</line>
+          <properties class="examination.updnetwork.Send">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar:///Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java</url>
+          <line>76</line>
+          <properties field="INVALIDATED" class="java.io.BufferedReader" />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaLearnCode$cn_kiroe_day18_io2__03otherstream__01data_Demo2.ic" NAME="cn.kiroe.day18_io2._03otherstream._01data.Demo2 Coverage Results" MODIFIED="1698912848390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.kiroe.day18_io2._03otherstream._01data.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaLearnCode$DataConversionMain.ic" NAME="DataConversionMain Coverage Results" MODIFIED="1697179520025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.kiroe.day02.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaLearnCode$TestStaticDemo.ic" NAME="TestStaticDemo Coverage Results" MODIFIED="1697766667155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.kiroe.day07.oop2._04block._04ex.*</FILTER>
+    </SUITE>
+  </component>
+</project>

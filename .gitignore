@@ -36,5 +36,4 @@ build/
 
 ### Mac OS ###
 .DS_Store
-
-GitTest
+src/main/java/_02dsdb/frontend
