@@ -1,0 +1,70 @@
+11.7作业
+
+1.参考上课代码, 实现跟同桌聊天
+完成
+2.参考上课代码实现
+    a. 客户端键盘录入，服务器输出文本文件
+    b. 客户端文本文件，服务器输出到控制台
+    c. 客户端文本文件，服务器输出文本文件
+3.代码补全
+tips:
+- 反射API
+- Field
+
+public class Work1 {
+ /**
+  *
+  * @param targetObj  要修改成员变量值的目标对象
+  * @param fieldName  对象中要修改的成员变量的名字
+  * @param newValue   要修改成员变量值的新值
+  */
+/*
+public static void setAll(Object targetObj, String fieldName, Object newValue) {
+
+        }
+
+4.完成如下方法，要求该方法能调用，指定配置文件中，指定类中指定的普通成员方法(无参方法)
+假设指定类中一定有默认构造方法
+tips:
+- Properties
+- 反射API
+- Method
+properties配置文件中内容如下:
+className=com.cskaoyan.day22.Student
+methodName=study
+
+public class Work2 {
+
+    /**
+    *
+    * @param configFilePath  表示配置文件的路径
+    */
+/*
+public void callTargetMethod(String configFilePath) {
+
+
+        }
+   }
+
+	
+5.GUI stage8
+
+
+再加一道题
+使用反射机制完成学生对象的创建并输出学生信息。
+
+要求：
+
+（1）定义一个学生类Student，其中包含姓名(String)、年龄(int)、成绩(int)的属性。
+
+（2）编写带参与无参构造方法。
+
+（3）重写父类的toString()方法用于输出学生的信息。
+
+（4）编写测试类TestStudent，从键盘录入学生的信息格式为(姓名:年龄:成绩)一次性录入使用“:”分隔，举例(张三:20:90)。
+
+（5）使用String类的split方法按照“:”进行分隔。
+
+（6）调用Constructor的newInstance()方法并用分隔后的信息初始化学生对象。
+
+（7）调用重写父类的toString()方法将学生信息进入输出显示。
