@@ -21,7 +21,7 @@ public class Demo {
         // new Object().getClass().getDeclaredMethod("")
 
         // Serializable
-        new FileWriter("IOTest/c2.txt");
+        new FileWriter("IOTest/c2.html");
         new ArrayIndexOutOfBoundsException();
 
     }

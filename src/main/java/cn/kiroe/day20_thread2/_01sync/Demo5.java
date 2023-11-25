@@ -1,8 +1,6 @@
 package cn.kiroe.day20_thread2._01sync;
 
-import sun.rmi.runtime.Log;
 
-import java.util.logging.Logger;
 
 /**
  * @author kiro

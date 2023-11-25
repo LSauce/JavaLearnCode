@@ -1,6 +1,5 @@
 package selflearn.thread.day21_thread3.custom._07cacheline;
 
-import sun.misc.Contended;
 
 /**
  * @author kiro
@@ -22,7 +21,6 @@ public class Demo {
         // 测试cpu缓冲行，每个 缓冲行64byte，所以可以使用 上下两个 56byte进行填充，使对齐
         // 防止 cpu缓存 之间的同步
         //private long p1,p2,p3,p4,p5,p6,p7; // 56个字节
-        @Contended
         private long x = 0L;
         //private long p9,p11,p12,p13,p14,p15; // 56个字节
     }

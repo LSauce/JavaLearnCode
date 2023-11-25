@@ -1,6 +1,5 @@
 package _02dsdb.day04_list_queue.other;
 
-import com.sun.jmx.remote.internal.ArrayQueue;
 import org.junit.Test;
 
 import java.util.ArrayDeque;

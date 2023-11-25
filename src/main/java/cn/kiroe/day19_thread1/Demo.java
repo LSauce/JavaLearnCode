@@ -1,6 +1,5 @@
 package cn.kiroe.day19_thread1;
 
-import jdk.nashorn.internal.runtime.regexp.JoniRegExp;
 
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;

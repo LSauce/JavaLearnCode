@@ -1,6 +1,5 @@
 package _02dsdb.day04_list_queue.homework.listwork;
 
-import com.sun.jmx.remote.internal.ArrayQueue;
 
 import java.util.ArrayList;
 import java.util.Arrays;

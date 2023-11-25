@@ -1,15 +1,8 @@
 package cn.kiroe.day23_annotation._04handle;
 
-import cn.kiroe.day16_file.homework.ex5.FileTest;
-import cn.kiroe.day21_thread3._01waitnotify.Ex;
-import sun.reflect.generics.tree.VoidDescriptor;
 
-import java.io.BufferedOutputStream;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.sql.Connection;
-import java.util.concurrent.Callable;
 
 /**
  * @author kiro

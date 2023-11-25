@@ -1,8 +1,6 @@
 package _02dsdb.day02_collection.homework.collectionwork;
 
-import com.sun.org.apache.xpath.internal.operations.Or;
 
-import javax.xml.crypto.Data;
 import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

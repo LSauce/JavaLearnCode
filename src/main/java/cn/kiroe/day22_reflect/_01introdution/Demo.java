@@ -30,7 +30,7 @@ public class Demo {
         System.out.println(s.replace(":",System.lineSeparator()));
 
         // commons-io-2.12.0.jar 包， 需要类加载器，加载后才能使用
-        // FileUtils.copyFile(new File("IOTest/client.txt"),new File("IOTest/c2.txt"));
+        // FileUtils.copyFile(new File("IOTest/client.txt"),new File("IOTest/c2.html"));
 
         // 扩展类加载器，加载路径
         System.out.println("扩展类加载器");

@@ -1,6 +1,5 @@
 package cn.kiroe.day10.oop._02abstract._02basic;
 
-import sun.reflect.generics.tree.VoidDescriptor;
 
 /**
  * @author kiro

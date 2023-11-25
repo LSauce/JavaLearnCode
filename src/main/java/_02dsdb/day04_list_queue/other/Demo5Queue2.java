@@ -1,6 +1,6 @@
 package _02dsdb.day04_list_queue.other;
 
-import com.sun.jmx.remote.internal.ArrayQueue;
+
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ public class Demo5Queue2 {
         System.out.println("integers = " + integers);
         // 自动扩容为原来的 两倍
         // 可设置容量
-        ArrayQueue<Integer> deque = new ArrayQueue<>(3);
+        ArrayDeque<Integer> deque = new ArrayDeque<>(3);
         deque.add(1);
         deque.add(2);
         deque.add(3);

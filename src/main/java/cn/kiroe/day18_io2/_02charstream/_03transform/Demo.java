@@ -1,6 +1,5 @@
 package cn.kiroe.day18_io2._02charstream._03transform;
 
-import sun.misc.IOUtils;
 
 import java.io.*;
 import java.util.Arrays;
@@ -16,13 +15,14 @@ import java.util.Arrays;
 public class Demo {
 
     public static void main(String[] args) {
-        try {
+        /*try {
+            *//*
            byte[] bytes = IOUtils.readAllBytes(new BufferedInputStream(new FileInputStream("IOTest/a.txt")));
 
-            System.out.println(new String(bytes));
+            System.out.println(new String(bytes));*//*
         } catch (IOException e) {
             throw new RuntimeException(e);
-        }
+        }*/
 
         try (OutputStreamWriter writer = new OutputStreamWriter(new BufferedOutputStream(new FileOutputStream("IOTest/a.txt",true)))) {
 
