@@ -6,6 +6,8 @@
 # 请设计一个数据库，要求可以正确体现导师和研究生之间的关系。
 # 设计完毕之后，请插入一定量的数据，并验证你设计的数据库是否满足要求。
 use homework_55th;
+
+
 create table t_staff
 (
     id        int primary key,
@@ -36,36 +38,43 @@ VALUES (1, '小明', '男', '2021-09-01', 1),
        (4, '小张', '女', '2021-09-01', 2),
        (5, '小王', '男', '2021-09-01', 3),
        (6, '小赵', '女', '2021-09-01', 3);
+
+# ------------------
 # -- 1.请查出每个导师所带研究生的姓名。
 SELECT staff.name, GROUP_CONCAT(stu.name)
 FROM t_staff AS staff
          LEFT JOIN t_stu AS stu
                    ON stu.tutor_id = staff.id
 GROUP by staff.name;
+# ------------------
 # -- 2.清查出特定姓名的导师所带研究生的姓名。
 SELECT stu.name
 FROM t_stu AS stu
          INNER JOIN t_staff
                     ON t_staff.id = tutor_id
 WHERE t_staff.name = '张三';
+# ------------------
 # -- 3.请查出每个导师所带研究生的数量。
 SELECT staff.name, COUNT(stu.name)
 FROM t_staff AS staff
          LEFT JOIN t_stu AS stu
                    ON staff.id = stu.tutor_id
 GROUP BY staff.id;
+# ------------------
 # -- 4.请查出每个导师所带的男研究生的数量。
 SELECT staff.name, COUNT(stu.name)
 FROM t_staff AS staff
          LEFT JOIN t_stu AS stu
                    ON staff.id = stu.tutor_id AND stu.gender = '男'
 GROUP BY staff.id;
+# ------------------
 # -- 5.请找出选择哪个研究方向的导师最多。
 # 获取最大的序列
 SELECT direction, COUNT(id)
 FROM t_staff
 GROUP BY direction
 ORDER BY COUNT(id);
+# ------------------
 # 找到研究导师最多的
 SELECT t.direction, COUNT(*) AS tutor_count
 FROM t_staff AS t
@@ -74,6 +83,7 @@ FROM t_staff AS t
                GROUP BY direction) AS counts ON t.direction = counts.direction
 GROUP BY t.direction
 HAVING COUNT(*) = MAX(counts.count);
+# ------------------
 # -- 6.请找统计不同职称的导师的个数。
 SELECT COUNT(id)
 FROM t_staff
