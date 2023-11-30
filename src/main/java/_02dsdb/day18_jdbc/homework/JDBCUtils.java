@@ -14,6 +14,7 @@ public class JDBCUtils {
 
     /**
      * 获取数据库连接
+     *
      * @return
      */
     public static Connection getConnection() {
@@ -27,6 +28,7 @@ public class JDBCUtils {
 
     /**
      * 打印ResultSet结果
+     *
      * @param resultSet
      * @throws SQLException
      */
@@ -38,14 +40,15 @@ public class JDBCUtils {
 
     /**
      * 打印Result数据内容
+     *
      * @param resultSet
      * @throws SQLException
      */
     private static void printResultSetContent(ResultSet resultSet) throws SQLException {
         int columnCount = resultSet.getMetaData().getColumnCount();
-        while (resultSet.next()){
+        while (resultSet.next()) {
             for (int i = 1; i <= columnCount; i++) {
-                System.out.print(resultSet.getString(i)+"\t");
+                System.out.print(resultSet.getString(i) + "\t");
 
             }
             System.out.println();
@@ -54,6 +57,7 @@ public class JDBCUtils {
 
     /**
      * 打印 字段行
+     *
      * @param resultSet
      * @throws SQLException
      */
@@ -61,7 +65,7 @@ public class JDBCUtils {
         ResultSetMetaData metaData = resultSet.getMetaData();
         int columnCount = metaData.getColumnCount();
         for (int i = 1; i <= columnCount; i++) {
-            System.out.print(metaData.getColumnName(i)+"\t");
+            System.out.print(metaData.getColumnName(i) + "\t");
         }
         System.out.println();
     }

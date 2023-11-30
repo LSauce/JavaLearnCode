@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03679336-71ec-4fd1-949f-5938fd859ff8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/day18_jdbc/homework/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/day18_jdbc/homework/Work1.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/public/static/1111.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/public/static/1234.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/public/static/2222.png" afterDir="false" />
@@ -45,9 +43,9 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/pages/homewor1/FormHomework.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/pages/test/form2.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_02dsdb/database/day17_constraint/work1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/database/day17_constraint/work1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_02dsdb/day18_jdbc/homework/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/day18_jdbc/homework/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_02dsdb/day18_jdbc/homework/Work1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/day18_jdbc/homework/Work1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_02dsdb/frontend/src/App.vue" afterDir="false" />
@@ -409,7 +407,7 @@
       <workItem from="1700834168043" duration="11077000" />
       <workItem from="1701223952377" duration="1481000" />
       <workItem from="1701225441443" duration="4742000" />
-      <workItem from="1701237223747" duration="2961000" />
+      <workItem from="1701237223747" duration="5646000" />
     </task>
     <servers />
   </component>

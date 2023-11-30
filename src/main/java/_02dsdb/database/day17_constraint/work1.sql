@@ -6,7 +6,7 @@
 # 请设计一个数据库，要求可以正确体现导师和研究生之间的关系。
 # 设计完毕之后，请插入一定量的数据，并验证你设计的数据库是否满足要求。
 use homework_55th;
-
+use test;
 
 create table t_staff
 (
@@ -65,7 +65,8 @@ GROUP BY staff.id;
 SELECT staff.name, COUNT(stu.name)
 FROM t_staff AS staff
          LEFT JOIN t_stu AS stu
-                   ON staff.id = stu.tutor_id AND stu.gender = '男'
+                   ON staff.id = stu.tutor_id
+                          AND stu.gender = '男'
 GROUP BY staff.id;
 # ------------------
 # -- 5.请找出选择哪个研究方向的导师最多。
