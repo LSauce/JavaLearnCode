@@ -1,38 +1,64 @@
-package _02dsdb.day18_jdbc.homework;
-
-import com.mysql.cj.jdbc.Driver;
+package _02dsdb.day19_JDBC;
 
 import java.io.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Properties;
 
 /**
  * @Author Kiro
- * @Date 2023/11/29 13:56
+ * @Date 2023/11/30 09:43
  **/
-public class JDBCUtils {
+public class JDBCUtil {
+    // 将常量抽取到配置文件中
     // 获取链接
-    private final static String URL = "jdbc:mysql://192.168.4.16/homework_55th";
-    private final static String USERNAME = "root";
-    private final static String PASSWORD = "123321";
+    private static String URL = "jdbc:mysql://192.168.4.16/homework_55th";
+    private static String USERNAME = "root";
+    private static String PASSWORD = "123321";
+    private static String SEPARATOR = "# ------------------";
+    private static String DRIVER = "";
 
-    private static final String SEPARATOR = "# ------------------";
+    static {
+        // 读取properties
+        Properties properties = new Properties();
+        File file = new File("src/main/java/_02dsdb/day19_JDBC/jdbc.properties");
+        try {
+            properties.load(new FileInputStream(file));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
+        URL = properties.getProperty("URL");
+        USERNAME = properties.getProperty("USERNAME");
+        PASSWORD = properties.getProperty("PASSWORD");
+        SEPARATOR = properties.getProperty("SEPARATOR");
+        DRIVER = properties.getProperty("driverClassName");
+    }
 
     /**
      * 获取数据库连接
      *
      * @return
      */
-    public static Connection getConnection() throws SQLException {
-        DriverManager.registerDriver(new Driver());
+    public static Connection getConnection() throws SQLException, ClassNotFoundException {
+        // 加载驱动
+        Class.forName(DRIVER);
         try {
             return DriverManager.getConnection(URL, USERNAME, PASSWORD);
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public static boolean close(Connection connection, Statement statement) throws SQLException {
+        if (connection == null || statement == null) {
+            return false;
+        }
+        connection.close();
+        statement.close();
+        return true;
     }
 
     /**
@@ -58,7 +84,6 @@ public class JDBCUtils {
         while (resultSet.next()) {
             for (int i = 1; i <= columnCount; i++) {
                 System.out.print(resultSet.getString(i) + "\t");
-
             }
             System.out.println();
         }
@@ -80,34 +105,13 @@ public class JDBCUtils {
     }
 
 
-
-    /**
-     * 执行 SQL文件中查询
-     * 查询之间使用 # ------------------ 分隔
-     * 不执行第一条分隔 之前的内容
-     *
-     * @param file
-     * @param statement
-     * @throws SQLException
-     */
-
-    public static void executeSQLFile(File file, Statement statement) throws SQLException {
-        List<String> sqlList = getSQList(file);
-        // 执行 sql,并打印结果
-        for (String sql : sqlList) {
-            System.out.println(sql);
-            JDBCUtils.printResultSet(statement.executeQuery(sql));
-        }
-    }
-
-
     /**
      * 读取文件，获取单条SQL
      *
      * @param file
      * @return
      */
-    public static List<String> getSQList(File file) {
+    public static List<String> getSQLList(File file) {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             StringBuilder sb = new StringBuilder();
             char[] chars = new char[1024];
